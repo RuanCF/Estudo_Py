@@ -1,0 +1,11 @@
+A=input('Digite algo: ')
+print('O tipo primitivo "{}" é: {}'.format(A, type(A)))
+print('É número:',A.isnumeric())
+print('É Letra:',A.isalpha())
+print('É Letra e Número:',A.isalnum())
+print('É Maiúsculo:',A.isupper())
+print('É Minúsculo:',A.islower())
+print('está capitalizada:',A.istitle())
+print('É Espaço:',A.isspace())
+print('"{}" Pode ser imprimido:{}'.format(A, A.isspace()))
+#2 formatos diferentes para se fazer
